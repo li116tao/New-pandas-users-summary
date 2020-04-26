@@ -1,1 +1,24 @@
-theme: jekyll-theme-architect
+# Site wide configuration
+
+title: Pandas new users summary
+locale: AU
+logo: # filename of a logo image that has been placed into your images directory
+
+# Enter the following platform usernames if you would like for them to appear on your site.
+owner:
+  name: baili
+  avatar: bio-photo.jpg
+  bio: "This is a sample pands academic website."
+  email: li116tao@126.com
+  # Do not include the @ symbol in your Twitter username
+  twitter: Nan
+  linkedin: #username
+  github: li116tao
+  orcid: # ID Number (ex. 0000-0000-0000-0000)
+  researchgate: #username
+  mendeley: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    scholar: #id
