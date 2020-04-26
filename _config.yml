@@ -22,3 +22,5 @@ owner:
     analytics:
     verify:
     scholar: #id
+
+theme: jekyll-theme-architect
