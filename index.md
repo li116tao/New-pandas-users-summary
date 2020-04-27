@@ -63,25 +63,27 @@ I first list the functions together to give a overview :
 - **df = pd.DataFrame(data = d, index = i)**
 
 
--    one	two
-- a	1	2
-- b	1	2
-
+```
+     one	two
+  a	1	2
+  b	1	2
+```
 - df.stack()
+```
 
-
-- a  one    1
-     two    2
-- b  one    1
-     two    2
-
+ a  one    1
+    two    2
+ b  one    1
+    two    2
+```
 - df.unstack()
+```
 
-- one  a    1
-       b    1
-- two  a    2
-       b    2
-
+ one  a    1
+      b    1
+ two  a    2
+      b    2
+```
 - df.T
 
 ```
