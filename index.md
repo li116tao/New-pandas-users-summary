@@ -83,7 +83,8 @@ I first list the functions together to give a overview :
        b    2
 
 - df.T
-
--       a  b
+'''
+        a  b
  one	  1	1
  two	  2	2
+'''
