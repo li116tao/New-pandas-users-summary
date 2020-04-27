@@ -85,5 +85,5 @@ I first list the functions together to give a overview :
 - df.T
 
 -       a  b
-- one	  1	1
-- two	  2	2
+ one	  1	1
+ two	  2	2
