@@ -4,6 +4,7 @@ This is a summary of basic functions and concepts from pandas tutorial for new u
 I first list the functions together to give a overview :
 ## List of functions:
 [references--from pandas documentation](https://pandas.pydata.org/pandas-docs/version/0.15/tutorials.html)
+### **Remeber coding is a LANGUAGE, to be able to speak that language, you need to remember the words first. The functions below are the words, finding oppotunities to use them over and over again. Even if you may not know exactly, you will develop a sense along the way.** 
 
 - list
 - zip
