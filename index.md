@@ -68,7 +68,9 @@ I first list the functions together to give a overview :
   a	1	2
   b	1	2
 ```
+
 - df.stack()
+
 ```
 
  a  one    1
@@ -76,7 +78,9 @@ I first list the functions together to give a overview :
  b  one    1
     two    2
 ```
+
 - df.unstack()
+
 ```
 
  one  a    1
@@ -84,6 +88,7 @@ I first list the functions together to give a overview :
  two  a    2
       b    2
 ```
+
 - df.T
 
 ```
@@ -91,7 +96,9 @@ I first list the functions together to give a overview :
  one	  1	1
  two	  2	2
 ```
+
 - df.copy()
+
 > calculate outlier
 > **newdf['Outlier'] = State.transform(lambda x: abs(x-x.mean()) > 1.96x.std())**
 - df.to_json()
@@ -99,6 +106,8 @@ I first list the functions together to give a overview :
 > combining data from different resource
 
 > 1.getting file name list
+
+
 ```
 FileNames = []
 os.chdir(r"path")
@@ -108,6 +117,7 @@ for files in os.listdir('.'):
 ```
 
 >2. getting files
+
 ```
 
 def GetFile(fnambre):
@@ -118,6 +128,7 @@ def GetFile(fnambre):
 ```
 
 >3.Creating a list of dataframes
+
 ```
 
 df_list = [GetFile(fname) for fname in FileNames]
