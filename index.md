@@ -135,3 +135,18 @@ def GetFile(fnambre):
 df_list = [GetFile(fname) for fname in FileNames]
 big_df = pd.concat(df_list)
 ```
+
+# Pandas cookbook summary
+This is a supplyment of the first section. From pandas cookbook. 
+[References--Pandas documentaion pandas cookbook](https://nbviewer.jupyter.org/github/jvns/pandas-cookbook/blob/v0.1/cookbook/Chapter%201%20-%20Reading%20from%20a%20CSV.ipynb)
+## List of functions:
+- pd.read_csv('path', sep = ':', encoding='Latins1', parse_dates=['Date'], dayfirst=True, index_col = 'Date')
+- df[column_name].plot(kind = )
+### Dealing with columns that is text represnts different item ###
+- df[column_name].value_counts()
+### a more serious slicing and dicing ###
+- df[colum_name1 == 'condition' & column_name2 == 'condition']
+
+- astype(float)
+- df.index.weekday
+
