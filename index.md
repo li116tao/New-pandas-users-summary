@@ -149,4 +149,7 @@ This is a supplyment of the first section. From pandas cookbook.
 
 - astype(float)
 - df.index.weekday
+- 
+
+
 
