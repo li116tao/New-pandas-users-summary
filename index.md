@@ -135,6 +135,15 @@ def GetFile(fnambre):
 df_list = [GetFile(fname) for fname in FileNames]
 big_df = pd.concat(df_list)
 ```
+## showcase example of using the above functions
+####
+I first created a large dataset using random generator from numpy. It randomly pick an element from the lists, used for loop to repeat this process to generate a large data size, it can be as large as you wish!
+Used function date-range to generate date as index later. Set data, column and row index to form a dataset used to be analized later to practice more functions.
+
+The second part of the example is to analyse this dataset. In general, before any specific analysis, we need to have an idea about the entire datase. what are the rows, columns, is there any missing data, is the dataset correct or not etc. After that we need to use some functions to manipulate data in order to get and present information. The most often used functions are groupby, sort_index, sort_values to form a sub dataset, some calculations, and some more fancy technics e.g chained functions, df.transfrom and lambda. 
+
+For example:to answer the question "Does the popularity of names change with time?"
+we first sort index with time descending order, add one column to calculate the number of names, then reset index group dataset by names, the info we are looking for can be easily seen. Chained function is used.
 
 # Pandas cookbook summary
 This is a supplyment of the first section. From pandas cookbook. 
